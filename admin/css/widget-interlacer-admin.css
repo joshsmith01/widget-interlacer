@@ -1,0 +1,12 @@
+#widget-interlacer .ui-widget-content {
+    border-color: #e2e2e2;
+    margin: 0 -10px;
+    margin-bottom: 8px;
+}
+.ui-corner-all,
+.ui-corner-top {
+    border-radius: 0;
+}
+.ui-widget-header {
+    background: #fafafa;
+}

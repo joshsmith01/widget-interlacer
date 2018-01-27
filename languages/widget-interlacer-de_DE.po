@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Interlacer\n"
+"POT-Creation-Date: 2018-01-26 22:50-0800\n"
+"PO-Revision-Date: 2018-01-26 22:51-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: widget-interlacer.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#. Plugin Name of the plugin/theme
+#: includes/interlace-post-metabox-options.php:7
+msgid "Widget Interlacer"
+msgstr "Widget Interlacer"
+
+#: includes/interlace-post-metabox-options.php:28
+msgid "Yes, interlace it"
+msgstr "Ja, es interlace"
+
+#: includes/interlace-post-metabox-options.php:31
+msgid "No, just regular layout"
+msgstr "Nein, ganz normale Layout"
+
+#: includes/interlace-post-metabox-options.php:36
+msgid "After what element?"
+msgstr "Nach welchem Element?"
+
+#: includes/interlace-post-metabox-options.php:51
+msgid "After how many elements?"
+msgstr "Nach wie vielen Elementen?"
+
+#: includes/register-interlace-sidebar.php:16
+msgid "Widget Interlacer Content"
+msgstr "Widget Interlacer Inhalt"
+
+#: includes/register-interlace-sidebar.php:18
+msgid "Content will be interlaced with regular post content"
+msgstr "Inhalt wird mit normaler Post Inhalt interlaced"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/joshsmith01/widget-interlacer"
+msgstr "https://github.com/joshsmith01/Widget-Interlacer"
+
+#. Description of the plugin/theme
+msgid "Interlace content from a widget into the main post content."
+msgstr "Interlace-Inhalt aus einem Widget in der Hauptpost Inhalt."
+
+#. Author of the plugin/theme
+msgid "Josh Smith"
+msgstr "Josh Smith"
+
+#. Author URI of the plugin/theme
+msgid "http://www.efficiencyofmovement.com"
+msgstr "http://www.efficiencyofmovement.com"

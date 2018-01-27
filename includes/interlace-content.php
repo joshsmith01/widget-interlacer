@@ -15,15 +15,18 @@
  */
 
 function interlaceWidget( $content ) {
-	$interlace_content = get_post_meta( get_the_ID(), '_interlace_content', true );
+	$post_id = get_the_ID();
+	$interlace_content = get_post_meta( $post_id, 'widget_interlacer_interlace_it', true );
+
 	if ( is_singular() && is_active_sidebar('widget-interlacer') && $interlace_content === 'yes') {
+
 		// Get some variables to add to the interlaceWidget function. -JMS
-		$widget_data = get_option( 'widget_widget_interlacer_widget' );
-		$element_count = $widget_data[2]['element_count'];
-		$element_after = $widget_data[2]['element_after'];
+		$element_count = get_post_meta( $post_id, 'widget_interlacer_element_count', true );
+		$element_after = get_post_meta( $post_id, 'widget_interlacer_after_element', true );
 		$paragraphAfter[ $element_count ] = intval($element_count);
 		$content           = explode( "</$element_after>", $content );
 		$count             = count( $content );
+
 		for ( $i = 0; $i < $count; $i ++ ) {
 			if ( array_key_exists( $i, $paragraphAfter ) ) {
 
@@ -35,6 +38,7 @@ function interlaceWidget( $content ) {
 	} else {
 		return $content;
 	}
+	return $content;
 }
 
 add_filter( 'the_content', 'interlaceWidget' );

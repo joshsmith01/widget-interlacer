@@ -25,15 +25,15 @@ function wpdocs_my_display_callback( $post ) {
         <p>
             <input type="radio" name="interlace_content" id="interlace_content-yes"
                    value="yes" <?php checked( $widget_interlacer_interlace_it, 'yes', true ) ?>/>
-            <label for="interlace_content-yes" class="select-it">Yes, interlace it</label><br/>
+            <label for="interlace_content-yes" class="select-it"><?php _e( 'Yes, interlace it', 'widget-interlacer' ); ?>  </label><br/>
             <input type="radio" name="interlace_content" id="interlace_content-no"
                    value="no" <?php checked( $widget_interlacer_interlace_it, 'no', true ) ?>/>
-            <label for="interlace_content-no" class="select-it">No, just regular layout</label>
+            <label for="interlace_content-no" class="select-it"><?php _e( 'No, just regular layout', 'widget-interlacer' ); ?>  </label>
         </p>
 
 
         <p>
-            <label for="widget_interlacer_after_element">After what element?</label>
+            <label for="widget_interlacer_after_element"><?php _e( 'After what element?', 'widget-interlacer' ); ?>  </label>
             <select name="widget_interlacer_after_element" id="widget_interlacer_after_element" class="postbox">
                 <option value="p" <?php selected( $widget_interlacer_after_element, "p" ); ?>>p</option>
                 <option value="h1" <?php selected( $widget_interlacer_after_element, "h1" ); ?>>h1</option>
@@ -48,7 +48,7 @@ function wpdocs_my_display_callback( $post ) {
         </p>
 
         <p>
-            <label for="widget_interlacer_element_count">After how many elements?</label>
+            <label for="widget_interlacer_element_count"><?php _e( 'After how many elements?', 'widget-interlacer' ); ?>  </label>
             <select class="widefat" id="widget_interlacer_element_count" name="widget_interlacer_element_count">
                 <option value="1" <?php selected( $widget_interlacer_element_count, "1" ); ?>>1</option>
                 <option value="2" <?php selected( $widget_interlacer_element_count, "2" ); ?>>2</option>

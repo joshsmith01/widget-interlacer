@@ -11,7 +11,7 @@
  * @since x.x.x (when the file was introduced)
  */
 
-function create_widget_interlacer_sidebar() {
+function widget_interlacer_create_widget_interlacer_sidebar() {
 	register_sidebar( array(
 		'name'          => __( 'Widget Interlacer Content', 'widget-interlacer' ),
 		'id'            => 'widget-interlacer',
@@ -22,4 +22,4 @@ function create_widget_interlacer_sidebar() {
 		'after_title'   => '</h5>',
 	) );
 }
-add_action( 'widgets_init', 'create_widget_interlacer_sidebar' );
+add_action( 'widgets_init', 'widget_interlacer_create_widget_interlacer_sidebar' );

@@ -14,7 +14,7 @@
  * @return array
  */
 
-function interlaceWidget( $content ) {
+function widget_interlacer_interlace_content( $content ) {
 	$post_id = get_the_ID();
 	$interlace_content = get_post_meta( $post_id, 'widget_interlacer_interlace_it', true );
 
@@ -41,4 +41,4 @@ function interlaceWidget( $content ) {
 	return $content;
 }
 
-add_filter( 'the_content', 'interlaceWidget' );
+add_filter( 'the_content', 'widget_interlacer_interlace_content' );

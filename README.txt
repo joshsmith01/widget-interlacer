@@ -5,7 +5,7 @@ Tags: custom post type, widget, content, interlace, within content
 Requires at least: 4.8
 Tested up to: 4.8
 Requires PHP: 7.0.0
-Stable tag: 1.4.5
+Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -53,7 +53,7 @@ I purposely kept as much of my styles out of this. Each widget should inherit as
 == Usage ==
 Once the plugin is activated it will create a sidebar in Appearance>Widgets. Any widget that you place in that sidebar will get displayed within the post content. You specify what HTML element the widget content shall appear **after**.
 
-For example, if you know that you have three <p> tags in your post and you want an advertisement to appear after the second <p> tag, then on that post you can set the widget to display after a 'p' and after 2 elements.
+For example, if you know that you have three `<p>` tags in your post and you want an advertisement to appear after the second `<p>` tag, then on that post you can set the widget to display after a 'p' and after 2 elements.
 
 
 == Changelog ==
